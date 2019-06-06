@@ -1,0 +1,11 @@
+### TCP 
+参考：https://anonymalias.github.io/2017/04/07/tcp-create-close-note/#1-1-_tcpdump_u4E09_u6B21_u63E1_u624B
+TCP 同时打开的情况：只会打开一条链接
+(最下面的图有误，FIN_WAIT_1 -> TIME_WAIT条件应该为FIN,ACK 
+
+### HTTPS握手
+
+参考：https://razeencheng.com/post/ssl-handshake-detail
+
+![1](img/ssl-handshake-rsa.png)
+![2](img/ssl-handshake-dh.png) 
