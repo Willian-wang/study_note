@@ -196,8 +196,9 @@ Mybatis支持数据库自动生成的主键，需要将userGenerate属性设置�
 
 ##### 2. 参数与字符串替换
 ###### 1. #{}与的区别
-\#{} 会转义
-格式为：  
+
+1. \#{} 会转义
+格式为：
 ```#{属性, javaType=java类型,jdbcType=数据库类型，typeHandler=类型处理器，numericScale=小数点位数,mode=输入输出模式，resultMap=结果集}```
 
  1. 以上不能换行
